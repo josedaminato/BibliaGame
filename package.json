@@ -1,0 +1,21 @@
+{
+  "name": "desde-el-principio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Aventura bíblica 2D en Phaser. Primer nivel: La creación.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "phaser": "^3.88.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.4"
+  }
+}
